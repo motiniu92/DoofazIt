@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.zhomprass.zhomprasslimited">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <dist:module dist:instant="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/zhomprassicon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/zhomprassicon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activities.OrderActivity"></activity>
+        <activity android:name=".Activities.CartActivity" />
+        <activity android:name=".Activities.ShopActivity" />
+        <activity android:name=".Activities.BazarActvity" />
+        <activity android:name=".Activities.ThanaActivity" />
+        <activity android:name=".Activities.DistrictActivity" />
+        <activity
+            android:name=".Activities.LoginActivity"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity android:name=".Activities.ProductsActivity" />
+        <activity android:name=".Activities.ProductsDetailsActivity" />
+        <activity android:name=".Activities.ThiredCategoryActivity" />
+        <activity android:name=".Activities.SubcategoryActivity" />
+        <activity android:name=".Activities.ZoomImageActivity" />
+        <activity android:name=".Activities.WebViewActivity" />
+        <activity
+            android:name=".Activities.MainActivity"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

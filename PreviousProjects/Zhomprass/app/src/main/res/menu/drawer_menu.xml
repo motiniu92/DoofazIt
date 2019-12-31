@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Home"
+        android:id="@+id/homeId"
+        />
+    <item
+        android:title="Sign In"
+        android:id="@+id/signIn"
+        />
+    <item
+        android:title="T &amp; C"
+        android:id="@+id/tcId"
+        />
+    <item
+        android:title="Privacy Policy"
+        android:id="@+id/privacyPolicyId"
+        />
+    <item
+        android:title="About"
+        android:id="@+id/aboutId"
+        />
+    <item
+        android:title="Logout"
+        android:id="@+id/logout"
+        />
+
+
+</menu>

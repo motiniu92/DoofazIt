@@ -1,0 +1,133 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relativeLayout22"
+    android:fitsSystemWindows="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:id="@+id/swlaayout"
+
+            >
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+              <androidx.cardview.widget.CardView
+                  android:id="@+id/cardView2"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_margin="16dp"
+                  app:cardCornerRadius="6dp"
+                  app:layout_constraintEnd_toEndOf="parent"
+                  app:layout_constraintStart_toStartOf="parent"
+                  app:layout_constraintTop_toTopOf="parent"
+                  >
+
+                  <com.smarteist.autoimageslider.SliderView
+                      android:id="@+id/imageSlided"
+                      android:layout_width="match_parent"
+                      android:layout_height="150dp"
+                      app:sliderAnimationDuration="600"
+                      app:sliderAutoCycleDirection="back_and_forth"
+                      app:sliderAutoCycleEnabled="true"
+                      app:sliderCircularHandlerEnabled="true"
+                      app:sliderIndicatorAnimationDuration="600"
+                      app:sliderIndicatorGravity="center_horizontal|bottom"
+                      app:sliderIndicatorMargin="15dp"
+                      app:sliderIndicatorOrientation="horizontal"
+                      app:sliderIndicatorPadding="3dp"
+                      app:sliderIndicatorRadius="2dp"
+                      app:sliderIndicatorSelectedColor="#5A5A5A"
+                      app:sliderIndicatorUnselectedColor="#FFF"
+                      app:sliderScrollTimeInSec="1"
+                      app:sliderStartAutoCycle="true"
+                      />
+
+              </androidx.cardview.widget.CardView>
+              <include layout="@layout/user_info_layout"
+                  />
+          </LinearLayout>
+
+
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/firstLayeer"
+            android:layout_below="@id/swlaayout">
+
+            <com.google.android.material.tabs.TabLayout
+
+
+                android:id="@+id/tab_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:tabIndicatorColor="@color/colorAccent"
+                app:tabMaxWidth="130dp"
+                app:tabMinWidth="130dp"
+                app:tabMode="fixed"
+                app:tabSelectedTextColor="@color/colorAccent"
+                app:tabTextColor="@color/primary_text">
+
+
+                <com.google.android.material.tabs.TabItem
+
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Categories" />
+
+                <com.google.android.material.tabs.TabItem
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Brands" />
+
+                <com.google.android.material.tabs.TabItem
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Shops" />
+
+
+            </com.google.android.material.tabs.TabLayout>
+
+
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layerTwo"
+            android:layout_below="@id/firstLayeer">
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/productdetails_viewPager"
+                android:layout_width="match_parent"
+                android:layout_height="600dp"
+
+                >
+
+            </androidx.viewpager.widget.ViewPager>
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

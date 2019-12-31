@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "535994937907",
+    "firebase_url": "https://zhomprass-project.firebaseio.com",
+    "project_id": "zhomprass-project",
+    "storage_bucket": "zhomprass-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:535994937907:android:51170cd34b65a30efc6946",
+        "android_client_info": {
+          "package_name": "com.zhomprass.zhomprasslimited"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "535994937907-47p7348cffkqao1o6f03r8rdq2cc4daa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zhomprass.zhomprasslimited",
+            "certificate_hash": "2de9738e7510a9540e71df6de0f077eeae39c824"
+          }
+        },
+        {
+          "client_id": "535994937907-qf69ld4h7hqtpm0bn303du71gcha19q0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAg8QXtlU9IDx9Tq9L_G6s0vqJ1_OzFJYc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "535994937907-qf69ld4h7hqtpm0bn303du71gcha19q0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
