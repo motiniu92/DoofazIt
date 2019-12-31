@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#C62828</color>
+    <color name="colorPrimaryDark">#999C9C</color>
+    <color name="colorAccent">#FF5722</color>
+
+    <color name="red">#FF0000</color>
+    <color name="black">#000000</color>
+    <color name="white">#fff</color>
+    <color name="profileColor">#0BC9E3</color>
+    <color name="gray1">#E0E0E0</color>
+    <color name="gray2">#B4B4B4</color>
+    <color name="PrimaryBackground">#FF6F4C</color>
+    <color name="reportFragmentBackground">#35353f</color>
+    <color name="reportFragmentTableBackground">#383842</color>
+    <color name="table_head_report">#FFC107</color>
+
+    <color name="green">#21E43C</color>
+    <color name="grey">#828080</color>
+    <color name="times_color">#EFEFFB</color>
+    <color name="colorAccent2">#FFF</color>
+
+
+
+</resources>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">TimeTec</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_product">Product</string>
+    <string name="menu_privacy">Privacy Policy</string>
+    <string name="menu_t_c">T &amp; c</string>
+    <string name="menu_about">About</string>
+    <string name="menu_log_out">Log Out</string>
+    <string name="menu_send">Send</string>
+    <string name="product">Products</string>
+    <string name="reward">Reward</string>
+    <string name="bonus">Bonus</string>
+    <string name="notification">Notification</string>
+
+
+    <string name="add_mob_id">ca-app-pub-3940256099942544~3347511713</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
