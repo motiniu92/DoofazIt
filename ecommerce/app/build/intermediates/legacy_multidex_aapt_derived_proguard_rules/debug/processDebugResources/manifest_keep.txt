@@ -1,2 +1,0 @@
-# Referenced at /home/doofaz-it/Downloads/ecommerce/app/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:67
--keep class com.bahadur.bahadurapp.app.App { <init>(...); }
