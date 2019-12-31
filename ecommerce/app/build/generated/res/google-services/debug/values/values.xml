@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">550495403796-k930vi97u40oal3d8gebd1ubffk0oksr.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://bahadur-1544274911172.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">550495403796</string>
+    <string name="google_api_key" translatable="false">AIzaSyDL8ldIbhGirnO4h7uZ_FPC3svtdaO1mfs</string>
+    <string name="google_app_id" translatable="false">1:550495403796:android:4696ed1ba01df54c</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDL8ldIbhGirnO4h7uZ_FPC3svtdaO1mfs</string>
+    <string name="google_storage_bucket" translatable="false">bahadur-1544274911172.appspot.com</string>
+    <string name="project_id" translatable="false">bahadur-1544274911172</string>
+</resources>

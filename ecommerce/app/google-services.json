@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "550495403796",
+    "firebase_url": "https://bahadur-1544274911172.firebaseio.com",
+    "project_id": "bahadur-1544274911172",
+    "storage_bucket": "bahadur-1544274911172.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:550495403796:android:4696ed1ba01df54c",
+        "android_client_info": {
+          "package_name": "com.bahadur.bahadurapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "550495403796-qnh1qb3721aotd9d9un437j41mmpeko9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bahadur.bahadurapp",
+            "certificate_hash": "9216d8c11ab7304169450b2cdf6a9a56c5907533"
+          }
+        },
+        {
+          "client_id": "550495403796-k930vi97u40oal3d8gebd1ubffk0oksr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDL8ldIbhGirnO4h7uZ_FPC3svtdaO1mfs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "550495403796-k930vi97u40oal3d8gebd1ubffk0oksr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

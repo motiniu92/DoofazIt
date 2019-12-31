@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/doofaz-it/Downloads/ecommerce/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xlarge-mdpi-v4/values-xlarge-mdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/home/doofaz-it/.gradle/caches/transforms-2/files-2.1/5226a1714b7e0a82451c1bb6b4db24a0/res/values-xlarge-mdpi-v4/values-xlarge-mdpi-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,106,156,200",
+                        "endColumns": "50,49,43,42",
+                        "endOffsets": "101,151,195,238"
+                    }
+                }
+            ]
+        }
+    ]
+}
